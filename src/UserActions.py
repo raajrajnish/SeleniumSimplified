@@ -27,7 +27,7 @@ class SeleniumSimplified():
         base_functions = CommonActivities(driver)
         self.base_functions = base_functions
 
-    def open_url(self,url):
+    def open_url(self, url):
         self.base_functions.open_url(url=url)
 
     def type_in_element(self, xpath, text):
