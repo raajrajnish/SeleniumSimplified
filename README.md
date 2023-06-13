@@ -20,4 +20,15 @@ This library has below advantages
 ### How to install
 ```pip install selenium-simplified```
 
+### Example
+Below code will open chrome browser and navigate to Google home page and do a search for SeleniumSimplified
+``` 
+from simplified import *
+
+driver = SeleniumSimplified()
+driver.open_url(url='https://www.google.com')
+driver.type_in_element(xpath="//*[@name='q']",text='pip SeleniumSimplified')
+driver.click_on_element(xpath="//*[@name='btnK']")
+```
+
 https://www.freecodecamp.org/news/how-to-create-and-upload-your-first-python-package-to-pypi/
