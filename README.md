@@ -9,7 +9,7 @@ This library is created keeping those developers in mind who wish to automate th
 
 In order to make things simple and easy to understand for anyone with a background in selenium, we have made an effort to keep the function name as close to the original selenium functions as possible.
 
-### Advantage
+### Advantages
 This library has below advantages
   1. It is a plug-and-play library built on top of Selenium, you still get the power of Selenium when using it.
   2. It supports the Chrome browser out of the box; internally, everything is taken care of.
@@ -17,5 +17,7 @@ This library has below advantages
   4. It use XPATH as a default for the locator strategy.
   5. Saves a tonne of time by preventing us from writing repetitive code because it is simple to setup and use.
 
+### How to install
+'''pip install selenium-simplified'''
 
 https://www.freecodecamp.org/news/how-to-create-and-upload-your-first-python-package-to-pypi/
