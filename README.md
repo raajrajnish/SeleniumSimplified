@@ -27,8 +27,13 @@ from simplified import *
 
 driver = SeleniumSimplified()
 driver.open_url(url='https://www.google.com')
-driver.type_in_element(xpath="//*[@name='q']",text='pip SeleniumSimplified')
+driver.type_in_element(xpath="//*[@name='q']",text='selenium')
 driver.click_on_element(xpath="//*[@name='btnK']")
 ```
 
-https://www.freecodecamp.org/news/how-to-create-and-upload-your-first-python-package-to-pypi/
+### Functions Supported
+  1. open_url - Used for open a url in the chrome browser, takes one param1- as url 
+  2. type_in_element - Used for typing in input box, takes to parameter param1- xpath as locator and param2- as text
+  3. click_on_element - Used for clicking on webelement, takes one param1- as xpath
+
+adding more functions...
