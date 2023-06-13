@@ -1,4 +1,5 @@
 # SeleniumSimplified
+![Selenium Simplified Logo](assets/Se.png)
 
 A free, open-source web automation library for the Chrome browser using Selenium Python.
 
