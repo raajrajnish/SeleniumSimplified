@@ -18,6 +18,6 @@ This library has below advantages
   5. Saves a tonne of time by preventing us from writing repetitive code because it is simple to setup and use.
 
 ### How to install
-'''pip install selenium-simplified'''
+```pip install selenium-simplified```
 
 https://www.freecodecamp.org/news/how-to-create-and-upload-your-first-python-package-to-pypi/
