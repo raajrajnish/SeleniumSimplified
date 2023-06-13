@@ -1,4 +1,5 @@
 # SeleniumSimplified
+
 A free, open-source web automation library for the Chrome browser using Selenium Python.
 
 ### Description
