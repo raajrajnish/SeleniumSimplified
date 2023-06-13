@@ -1,5 +1,7 @@
 # SeleniumSimplified
-a better approach to do automation using selenium python on chrome browser
+A open source library for web automation using selenium python on chrome browser.
+
+### Description
 
 
 https://www.freecodecamp.org/news/how-to-create-and-upload-your-first-python-package-to-pypi/
