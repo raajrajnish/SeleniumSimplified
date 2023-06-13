@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from UserActivities import *
+from .UserActivities import *
 
 
 def open_chrome(universal_wait=10):
@@ -35,4 +35,3 @@ class SeleniumSimplified():
 
     def click_on_element(self, xpath):
         self.base_functions.click_on_element(web_element=self.base_functions.find_element(xpath=xpath))
-

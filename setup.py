@@ -4,15 +4,17 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="SeleniumSimplified",
-    version="1.0",
+    name="simplified",
+    version="0.1",
     author="rajnish kumar",
     author_email="raajrajnish@gmail.com",
-    description="a better approach to do automation using selenium python on chrome browser",
+    description="a better approach to do automation using simplified python on chrome browser",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/raajrajnish/SeleniumSimplified.git",
     packages=setuptools.find_packages(),
+    # packages=['simplified'],
+    install_requires=['simplified'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
