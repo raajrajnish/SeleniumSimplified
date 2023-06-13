@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="selenium-simplified",
-    version="0.1",
+    version="0.4",
     author="rajnish kumar",
     author_email="raajrajnish@gmail.com",
-    description="a better approach to do automation using simplified python on chrome browser",
+    description="A free, open-source web automation library for the Chrome browser using Selenium Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/raajrajnish/SeleniumSimplified.git",
