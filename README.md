@@ -1,5 +1,9 @@
 # SeleniumSimplified
-![Selenium Simplified Logo](assets/Se.png)
+<!-- ![Selenium Simplified Logo](assets/Se.png) -->
+
+<p align="center">
+  <img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/Se.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 A free, open-source web automation library for the Chrome browser using Selenium Python.
 
