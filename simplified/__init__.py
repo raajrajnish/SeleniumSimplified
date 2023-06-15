@@ -21,7 +21,7 @@ def open_chrome(universal_wait=10):
     return driver
 
 
-class SeleniumSimplified():
+class SeleniumSimplified:
     def __init__(self):
         driver = open_chrome()
         base_functions = CommonActivities(driver)

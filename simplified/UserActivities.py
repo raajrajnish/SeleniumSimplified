@@ -16,7 +16,7 @@ def highlight(element):
 
 
 class CommonActivities:
-    def __init__(self,driver):
+    def __init__(self, driver):
         self.driver = driver
 
     def open_url(self, url):
