@@ -30,8 +30,23 @@ class SeleniumSimplified():
     def open_url(self, url):
         self.base_functions.open_url(url=url)
 
+    def get_tab_title(self):
+        return self.base_functions.get_title()
+
     def type_in_element(self, xpath, text):
         self.base_functions.type_in_element(web_element=self.base_functions.find_element(xpath=xpath), text=text)
 
     def click_on_element(self, xpath):
         self.base_functions.click_on_element(web_element=self.base_functions.find_element(xpath=xpath))
+
+    def web_element(self, xpath):
+        return self.base_functions.find_element(xpath=xpath)
+
+    def close_current_tab(self):
+        self.base_functions.close_current_tab()
+
+    def close_browser(self):
+        self.base_functions.close_browser()
+
+    def take_screenshot(self, dir):
+        self.base_functions.click_screenshot(dir=dir)

@@ -8,3 +8,4 @@ selenium_simplified.egg-info/requires.txt
 selenium_simplified.egg-info/top_level.txt
 simplified/UserActivities.py
 simplified/__init__.py
+simplified/testLibrary.py
