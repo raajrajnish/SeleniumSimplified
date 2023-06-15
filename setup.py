@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="selenium-simplified",
-    version="0.7",
+    version="0.9",
     author="rajnish kumar",
     author_email="raajrajnish@gmail.com",
     description="A free, open-source web automation library for the Chrome browser using Selenium Python",
@@ -15,8 +15,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=['selenium','bs4'],
     classifiers=[
-        "Programming Language :: Python :: 3x",
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent - Works on all",
+        "Operating System :: OS Independent",
     ],
 )
