@@ -1,4 +1,4 @@
-# SeleniumSimplified 
+# SeleniumSimplified (BETA Version)
 <p align="center">
   <img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/Se.png?raw=true" alt="Logo-SeleniumSimplified" height=300 width=300/>
 </p>
