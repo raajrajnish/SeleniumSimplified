@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from .UserActivities import *
+from .CommonActivities import *
+from .AdvannceActivities import *
 
 
 def open_chrome(universal_wait=10):
@@ -24,7 +25,7 @@ def open_chrome(universal_wait=10):
 class SeleniumSimplified:
     def __init__(self):
         driver = open_chrome()
-        base_functions = CommonActivities(driver)
+        base_functions = CommonActivities(driver=driver)
         self.base_functions = base_functions
 
     def open_url(self, url):
@@ -34,19 +35,22 @@ class SeleniumSimplified:
         return self.base_functions.get_title()
 
     def type_in_element(self, xpath, text):
-        self.base_functions.type_in_element(web_element=self.base_functions.find_element(xpath=xpath), text=text)
+        self.base_functions.type_in_element(web_element=self.base_functions.element_find(xpath=xpath), text=text)
 
     def click_on_element(self, xpath):
-        self.base_functions.click_on_element(web_element=self.base_functions.find_element(xpath=xpath))
+        self.base_functions.click_on_element(web_element=self.base_functions.element_find(xpath=xpath))
 
     def web_element(self, xpath):
-        return self.base_functions.find_element(xpath=xpath)
+        return self.base_functions.element_find(xpath=xpath)
 
     def close_current_tab(self):
         self.base_functions.close_current_tab()
 
     def close_browser(self):
         self.base_functions.close_browser()
+
+    def get_html_source(self):
+        return self.base_functions.get_page_source()
 
     def take_screenshot(self, dir):
         self.base_functions.click_screenshot(dir=dir)

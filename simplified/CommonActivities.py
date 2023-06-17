@@ -13,6 +13,7 @@ def highlight(element):
     apply_style("background: blue; border: 2px solid orange;")
     time.sleep(.3)
     apply_style(original_style)
+    return True
 
 
 class CommonActivities:
@@ -22,10 +23,13 @@ class CommonActivities:
     def open_url(self, url):
         self.driver.get(url)
 
+    def get_page_source(self):
+        return self.driver.page_source
+
     def get_title(self):
         return self.driver.title
 
-    def find_element(self, xpath):
+    def element_find(self, xpath):
         return self.driver.find_element(By.XPATH, xpath)
 
     def type_in_element(self,web_element,text):
@@ -42,11 +46,4 @@ class CommonActivities:
     def close_browser(self):
         self.driver.quit()
 
-    def click_screenshot(self, dir):
-        now = datetime.now()
-        dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-        current_date = dt_string.split(" ")[0].replace('/','_')
-        current_time = dt_string.split(" ")[1].replace(':', '_')
-        file_name = current_date+'_'+current_time.replace(':','_')+".png"
-        self.driver.save_screenshot(dir+file_name)
 
