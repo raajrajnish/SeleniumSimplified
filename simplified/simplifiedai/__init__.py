@@ -7,9 +7,13 @@ class LocatorSpider:
         self.dom_crawler = ParseDOM
         self.driver = driver
 
-    def crawler_input(self):
-        locator = self.dom_crawler.crawler_input(self, source=self.driver.get_html_source())
+    def give_locator_of_all_input_Boxes(self):
+        return self.dom_crawler.give_locator_all_inputBoxes(self, source=self.driver.get_html_source())
+
+    def give_locator_of_all_input_Boxes_and_highlight(self):
+        locator = self.dom_crawler.give_locator_all_inputBoxes(self, source=self.driver.get_html_source())
         [highlight(element=self.driver.web_element(xpath=path)) for xpath in locator for path in xpath]
+        return locator
 
 
 

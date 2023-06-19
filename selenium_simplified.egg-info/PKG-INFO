@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: selenium-simplified
+Version: 0.18
+Summary: A free, open-source web automation library for the Chrome browser using Selenium Python
+Home-page: https://github.com/raajrajnish/SeleniumSimplified.git
+Author: rajnish kumar
+Author-email: raajrajnish@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
 # SeleniumSimplified(<img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/beta.png?raw=true" alt="Logo-SeleniumSimplified beta version" height=25 width=25/>)
 <p align="center">
   <img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/main_logo.png?raw=true" alt="Logo-SeleniumSimplified" height=300 width=300/>
