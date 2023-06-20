@@ -1,4 +1,4 @@
-# SeleniumSimplified(<img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/beta.png?raw=true" alt="Logo-SeleniumSimplified beta version" height=25 width=25/>)
+#SeleniumSimplified(<img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/beta.png?raw=true" alt="Logo-SeleniumSimplified beta version" height=25 width=25/>)
 <p align="center">
   <img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/main_logo.png?raw=true" alt="Logo-SeleniumSimplified" height=300 width=300/>
 </p>
@@ -16,12 +16,12 @@
 
 
 
-### Description
+## Description
 This library is created keeping those developers in mind who wish to automate their website for a task but do not wish to spend an excessive amount of time learning a new library.We made every effort when creating this toolkit to make web automation as simple and efficient as possible. This library's backend is the Python client for [Selenium](https://www.selenium.dev/). Selenium is the standard library for web automation and is quite powerful.
 
 In order to make things simple and easy to understand for anyone with a background in selenium, we have made an effort to keep the function name as close to the original selenium functions as possible.
 
-### Advantages
+## Advantages
 This library has below advantages
   1. It is a plug-and-play library built on top of Selenium, you still get the power of Selenium when using it.
   2. It supports the Chrome browser out of the box; internally, everything is taken care of.
@@ -29,10 +29,10 @@ This library has below advantages
   4. It use XPATH as a default for the locator strategy.
   5. Saves a tonne of time by preventing us from writing repetitive code because it is simple to setup and use.
 
-### How to install
+## How to install
 ```pip install selenium-simplified```
 
-### Example
+## Example
 Below code will open chrome browser and navigate to Google home page and do a search for SeleniumSimplified
 ``` 
 from simplified import *
@@ -43,7 +43,8 @@ driver.type_in_element(xpath="//*[@name='q']",text='selenium')
 driver.click_on_element(xpath="//*[@name='btnK']")
 ```
 
-### Functions Supported
+## Functions Supported
+#### Core Functions : 
   1. ***open_url*** - Used for open a url in the chrome browser, takes one param1- as url 
   2. ***type_in_element*** - Used for typing in input box, takes to parameter param1- xpath as locator and param2- as text
   3. ***click_on_element*** - Used for clicking on web-element, takes one param1- as xpath
@@ -54,7 +55,7 @@ driver.click_on_element(xpath="//*[@name='btnK']")
 
 adding more functions...
 
-### Example Usage - Basic user actions
+### Example Usage - Core user functions
 ```commandline
 # Step 1 : install the library
 # pip install selenium-simplified
