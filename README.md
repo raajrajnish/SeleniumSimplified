@@ -1,4 +1,4 @@
-#SeleniumSimplified(<img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/beta.png?raw=true" alt="Logo-SeleniumSimplified beta version" height=25 width=25/>)
+# SeleniumSimplified(<img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/beta.png?raw=true" alt="Logo-SeleniumSimplified beta version" height=25 width=25/>)
 <p align="center">
   <img src="https://github.com/raajrajnish/SeleniumSimplified/blob/master/assets/main_logo.png?raw=true" alt="Logo-SeleniumSimplified" height=300 width=300/>
 </p>
